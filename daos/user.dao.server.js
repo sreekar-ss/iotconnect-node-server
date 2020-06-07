@@ -11,7 +11,7 @@ const findAllUsers = () => {
 const findUserById = (userId) => {
     return userModel.findOne(
         {
-            id : userId
+            googleId : userId
         }
     )
 }
